@@ -1,0 +1,45 @@
+.welcome {
+    margin-top: 100px;;
+    width: 1200px;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .h2-welcome{
+    font-size: 38px;
+    margin-TOP:2px;
+    padding-top: 30px;
+    margin-left:40px;
+  }
+
+  .connect {
+    width: 215px;
+    height:80px;
+    cursor: pointer;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+    float:right;
+    margin-right:20px;
+    position: relative;
+  
+  }
+
+  .welcome .h2-connect{
+    font-size: 30px;
+    margin-TOP:-20px;
+    margin-right:200px;
+  }
+  
+  
+  .p-welcomeMessage{
+    font-size: 20px;
+    font-family: "Times New Roman";
+  
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+   
+  }

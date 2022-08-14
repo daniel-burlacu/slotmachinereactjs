@@ -1,0 +1,35 @@
+.main__reelset{
+    position: relative;
+}
+
+.jackpot {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    height:55px;
+    margin-top:33px;
+  }
+
+  .container {
+    flex:1;
+  }
+
+  .playContainer{
+    height: 720px;
+    width:1200px;
+    background-color: purple;
+  }
+
+  .reelSet {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 3.5) {
+    .playContainer{
+      height: 360px;
+      width:800px;
+      background-color: purple;
+    }
+  }

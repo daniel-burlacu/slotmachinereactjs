@@ -1,0 +1,13 @@
+.reel {
+    width: 240px;
+    height: 720px;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .reel > .icons > img {
+    width: calc(100% - 4px);
+    /* enable gpu accelaration, fixes iOS flicker */
+    padding-left: 2px;
+    transform: translate3d(0, 0, 0);
+  }

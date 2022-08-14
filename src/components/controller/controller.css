@@ -1,0 +1,19 @@
+.controls {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+}
+
+.spin {
+    width: 215px;
+    cursor: pointer;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid black;
+  }
